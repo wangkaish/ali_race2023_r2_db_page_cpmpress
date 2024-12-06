@@ -1,0 +1,15 @@
+*.ibd
+*.swp
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+bin/
+data/
+cmake-build-debug/
+score.txt
+temp.txt
+temp2.txt
+page_engine/env.h
+page_engine.zip
+.idea

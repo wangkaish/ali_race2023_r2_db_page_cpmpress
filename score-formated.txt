@@ -1,0 +1,181 @@
+{"score": 36450.42075111111, "iops": 36450.42075111111, "rate": 0.31334793850686005}
+0: 17.89556074142456         trace IOPS:47816  compresstion ratio:0.15 (airline)     iops: 47817
+1: 15.235329389572144        trace IOPS:85717  compresstion ratio:0.04 (game_blob)   iops: 85718
+2: 14.422337532043457        trace IOPS:31355  compresstion ratio:0.29 (imdb)        iops: 31354
+3: 64.74974846839905         trace IOPS:18193  compresstion ratio:0.47 (sysbench)    iops: 18192
+4: 63.122238874435425        trace IOPS:17886  compresstion ratio:0.34 (tpch)        iops: 17885
+5: 66.90449285507202         trace IOPS:17737  compresstion ratio:0.60 (wiki)        iops: 17736
+time: 242.32970786094666
+iops: 36450
+2023-11-08T13:26:13.768
+Using THREADS: 12
+2023-11-08 05:24:44.317318 Start trace: airline.7848640512
+2023-11-08 05:24:44.317636 Clean dir
+2023-11-08 05:24:44.331955 Load trace...
+2023-11-08 05:26:07.647110 Succeed load trace
+2023-11-08 05:26:07.647149 Delete Trace and bin file...
+2023-11-08 05:26:07.753813 Start du background process ...
+2023-11-08 05:26:07.754334 Limiting page cache
+2023-11-08 05:26:07.754805 Limiting memory...
+2023-11-08 05:26:13.768635 Trace start running at:  1699421173.7686152
+2023-11-08 05:26:31.664180 Trace terminated
+2023-11-08 05:26:31.664423 Cpu and Disk IO stat druing trace run:
+--total-cpu-usage-- -dsk/total- --io/total- ----system----
+usr sys idl wai stl| read  writ| read  writ|     time     
+  3   3  89   6   0|2857G  804G| 170M 55.6M|08-11 05:26:14
+ 49  31  14   7   0|  43M   97M|2353  3416 |08-11 05:26:19
+ 53  28  12   7   0|  39M  110M|1990  3907 |08-11 05:26:24
+ 42  42   8   8   0| 177M   18M|10.5k  848 |08-11 05:26:29
+
+2023-11-08 05:26:31.664685 Trace run finished at:  1699421191.664176
+2023-11-08 05:26:31.664710 Check memory limit...
+2023-11-08 05:26:31.664744 Check Page Cache...
+2023-11-08 05:26:31.665255 Archieving disk usage info...
+2023-11-08 05:26:31.694833 trace IOPS:47816  compresstion ratio:0.15
+2023-11-08 05:26:31.694867 Archieving output and errs...
+2023-11-08 05:26:31.694924 Start trace: game_blob.5077352448
+2023-11-08 05:26:31.695157 Clean dir
+2023-11-08 05:26:31.725268 Load trace...
+2023-11-08 05:29:19.014313 Succeed load trace
+2023-11-08 05:29:19.014351 Delete Trace and bin file...
+2023-11-08 05:29:19.104540 Start du background process ...
+2023-11-08 05:29:19.104905 Limiting page cache
+2023-11-08 05:29:19.105190 Limiting memory...
+2023-11-08 05:29:25.121366 Trace start running at:  1699421365.1213534
+2023-11-08 05:29:40.356687 Trace terminated
+2023-11-08 05:29:40.356960 Cpu and Disk IO stat druing trace run:
+--total-cpu-usage-- -dsk/total- --io/total- ----system----
+usr sys idl wai stl| read  writ| read  writ|     time     
+  3   3  89   6   0|2858G  804G| 170M 55.6M|08-11 05:29:25
+ 28  51  12   9   0|  92M   16M|4975  1154 |08-11 05:29:30
+ 22  43  22  13   0| 130M   26M|7737  1583 |08-11 05:29:35
+
+2023-11-08 05:29:40.357186 Trace run finished at:  1699421380.3566828
+2023-11-08 05:29:40.357209 Check memory limit...
+2023-11-08 05:29:40.357244 Check Page Cache...
+2023-11-08 05:29:40.357934 Archieving disk usage info...
+2023-11-08 05:29:40.389651 trace IOPS:85717  compresstion ratio:0.04
+2023-11-08 05:29:40.389682 Archieving output and errs...
+2023-11-08 05:29:40.389730 Start trace: imdb.3755999232
+2023-11-08 05:29:40.389967 Clean dir
+2023-11-08 05:29:40.434988 Load trace...
+2023-11-08 05:30:17.421193 Succeed load trace
+2023-11-08 05:30:17.421234 Delete Trace and bin file...
+2023-11-08 05:30:17.719562 Start du background process ...
+2023-11-08 05:30:17.720009 Limiting page cache
+2023-11-08 05:30:17.720402 Limiting memory...
+2023-11-08 05:30:23.741345 Trace start running at:  1699421423.7413352
+2023-11-08 05:30:38.163676 Trace terminated
+2023-11-08 05:30:38.163864 Cpu and Disk IO stat druing trace run:
+--total-cpu-usage-- -dsk/total- --io/total- ----system----
+usr sys idl wai stl| read  writ| read  writ|     time     
+  3   3  89   6   0|2858G  804G| 170M 55.6M|08-11 05:30:24
+ 57  24  13   5   0|  39M  112M|2239  3746 |08-11 05:30:29
+ 48  35   8   8   0| 178M   36M|11.1k 1405 |08-11 05:30:34
+
+2023-11-08 05:30:38.164371 Trace run finished at:  1699421438.1636727
+2023-11-08 05:30:38.164397 Check memory limit...
+2023-11-08 05:30:38.164433 Check Page Cache...
+2023-11-08 05:30:38.164927 Archieving disk usage info...
+2023-11-08 05:30:38.215020 trace IOPS:31355  compresstion ratio:0.29
+2023-11-08 05:30:38.215049 Archieving output and errs...
+2023-11-08 05:30:38.216348 Start trace: sysbench.9612296192
+2023-11-08 05:30:38.216562 Clean dir
+2023-11-08 05:30:38.261943 Load trace...
+2023-11-08 05:33:15.031449 Succeed load trace
+2023-11-08 05:33:15.031488 Delete Trace and bin file...
+2023-11-08 05:33:15.294612 Start du background process ...
+2023-11-08 05:33:15.295027 Limiting page cache
+2023-11-08 05:33:15.295315 Limiting memory...
+2023-11-08 05:33:21.311722 Trace start running at:  1699421601.3117127
+2023-11-08 05:34:26.061465 Trace terminated
+2023-11-08 05:34:26.061709 Cpu and Disk IO stat druing trace run:
+--total-cpu-usage-- -dsk/total- --io/total- ----system----
+usr sys idl wai stl| read  writ| read  writ|     time     
+  3   3  89   6   0|2859G  804G| 170M 55.6M|08-11 05:33:21
+ 64  19  11   6   0|  36M  120M|1887  4133 |08-11 05:33:26
+ 64  19  13   4   0|  31M  119M|1666  3940 |08-11 05:33:31
+ 64  19  13   5   0|  32M  119M|1762  4093 |08-11 05:33:36
+ 62  18  14   6   0|  35M  119M|1602  4062 |08-11 05:33:41
+ 64  19  11   5   0|  29M  120M|1546  4143 |08-11 05:33:46
+ 62  18  15   5   0|  29M  119M|1478  3988 |08-11 05:33:51
+ 59  23  12   7   0|  94M   94M|5441  3183 |08-11 05:33:56
+ 25  24   1  50   0| 192M 1706k|12.0k  411 |08-11 05:34:01
+ 23  23   1  53   0| 185M 1415k|11.6k  343 |08-11 05:34:06
+ 22  22   1  54   0| 183M 1425k|11.5k  341 |08-11 05:34:11
+ 24  23   1  52   0| 181M 1766k|11.4k  403 |08-11 05:34:16
+ 25  22   2  51   0| 177M   10M|11.0k  646 |08-11 05:34:21
+
+2023-11-08 05:34:26.061943 Trace run finished at:  1699421666.0614612
+2023-11-08 05:34:26.061966 Check memory limit...
+2023-11-08 05:34:26.062005 Check Page Cache...
+2023-11-08 05:34:26.062648 Archieving disk usage info...
+2023-11-08 05:34:26.092184 trace IOPS:18193  compresstion ratio:0.47
+2023-11-08 05:34:26.092214 Archieving output and errs...
+2023-11-08 05:34:26.093322 Start trace: tpch.10475978752
+2023-11-08 05:34:26.093537 Clean dir
+2023-11-08 05:34:26.151106 Load trace...
+2023-11-08 05:36:49.493719 Succeed load trace
+2023-11-08 05:36:49.493759 Delete Trace and bin file...
+2023-11-08 05:36:49.685562 Start du background process ...
+2023-11-08 05:36:49.685932 Limiting page cache
+2023-11-08 05:36:49.686239 Limiting memory...
+2023-11-08 05:36:55.704665 Trace start running at:  1699421815.704656
+2023-11-08 05:37:58.826899 Trace terminated
+2023-11-08 05:37:58.827200 Cpu and Disk IO stat druing trace run:
+--total-cpu-usage-- -dsk/total- --io/total- ----system----
+usr sys idl wai stl| read  writ| read  writ|     time     
+  3   3  89   6   0|2860G  805G| 170M 55.7M|08-11 05:36:56
+ 63  22  11   4   0|  33M  133M|1663  4514 |08-11 05:37:01
+ 60  22  13   5   0|  34M  131M|1944  4374 |08-11 05:37:06
+ 60  22  14   5   0|  33M  130M|1644  4320 |08-11 05:37:11
+ 61  22  13   4   0|  31M  132M|1688  4426 |08-11 05:37:16
+ 60  22  13   6   0|  37M  130M|1798  4430 |08-11 05:37:21
+ 33  24   6  37   0| 188M   32M|11.7k 1191 |08-11 05:37:26
+ 19  21   1  59   0| 187M  680k|11.6k  157 |08-11 05:37:31
+ 16  18   1  65   0| 184M 1098k|11.7k  264 |08-11 05:37:36
+ 15  19   1  65   0| 180M 1907k|11.3k  464 |08-11 05:37:41
+ 17  19   1  63   0| 181M 1231k|11.5k  294 |08-11 05:37:46
+ 16  18   2  64   0| 180M 1503k|11.4k  367 |08-11 05:37:51
+ 16  18   1  64   0| 183M 1054k|11.5k  254 |08-11 05:37:56
+
+2023-11-08 05:37:58.827721 Trace run finished at:  1699421878.8268948
+2023-11-08 05:37:58.827772 Check memory limit...
+2023-11-08 05:37:58.827815 Check Page Cache...
+2023-11-08 05:37:58.828326 Archieving disk usage info...
+2023-11-08 05:37:58.859742 trace IOPS:17886  compresstion ratio:0.34
+2023-11-08 05:37:58.859771 Archieving output and errs...
+2023-11-08 05:37:58.862336 Start trace: wiki.4915200000
+2023-11-08 05:37:58.862539 Clean dir
+2023-11-08 05:37:58.928473 Load trace...
+2023-11-08 05:40:25.228576 Succeed load trace
+2023-11-08 05:40:25.228615 Delete Trace and bin file...
+2023-11-08 05:40:25.326595 Start du background process ...
+2023-11-08 05:40:25.326921 Limiting page cache
+2023-11-08 05:40:25.327207 Limiting memory...
+2023-11-08 05:40:31.346090 Trace start running at:  1699422031.346081
+2023-11-08 05:41:38.250577 Trace terminated
+2023-11-08 05:41:38.250811 Cpu and Disk IO stat druing trace run:
+--total-cpu-usage-- -dsk/total- --io/total- ----system----
+usr sys idl wai stl| read  writ| read  writ|     time     
+  3   3  89   6   0|2861G  806G| 171M 55.7M|08-11 05:40:31
+ 56  24  11   9   0|  78M   96M|4676  3445 |08-11 05:40:36
+ 39  24  12  24   0|  92M   63M|8022  2299 |08-11 05:40:41
+ 48  26  11  15   0|  83M   76M|9331  2677 |08-11 05:40:46
+ 39  25  13  23   0|  84M   62M|9457  2298 |08-11 05:40:51
+ 42  26  10  21   0|  99M   65M|11.2k 2452 |08-11 05:40:56
+ 38  24   8  30   0|  82M   57M|9546  2179 |08-11 05:41:01
+ 32  22   9  37   0|  86M   47M|9899  1774 |08-11 05:41:06
+ 36  24   7  33   0|  81M   53M|10.2k 1896 |08-11 05:41:11
+ 27  20   4  49   0|  86M   34M|10.5k 1318 |08-11 05:41:16
+ 24  21   5  50   0|  87M   31M|10.5k 1306 |08-11 05:41:21
+ 25  23   7  45   0| 160M 8626k|11.4k  391 |08-11 05:41:26
+ 22  22   2  54   0| 185M  749k|11.6k  176 |08-11 05:41:31
+ 17  20   2  61   0| 179M 1510k|11.4k  368 |08-11 05:41:36
+
+2023-11-08 05:41:38.251028 Trace run finished at:  1699422098.2505739
+2023-11-08 05:41:38.251048 Check memory limit...
+2023-11-08 05:41:38.251077 Check Page Cache...
+2023-11-08 05:41:38.251611 Archieving disk usage info...
+2023-11-08 05:41:38.282830 trace IOPS:17737  compresstion ratio:0.60
+2023-11-08 05:41:38.282857 Archieving output and errs...
